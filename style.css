@@ -1,0 +1,146 @@
+*{
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	
+}
+
+header {
+	background-color:white;
+}
+
+body {
+	color: #777777;
+	background-image: url(concrete_seamless.jpg);	
+}
+
+li {
+	float: left;
+}
+
+
+li a {
+    display: inline-block;
+    width: 150px;
+    color: #777777;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px
+}
+
+
+li a:hover {
+    background-color: darkgray;
+}
+
+.titles {
+	color: #4aaaa5;
+	padding:10px;
+	padding-left: 40px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.sectionborders {
+	margin: 30px;
+	border-width-left: 0;
+	border-width-right: 0;
+	border-top-width: 0;
+	border-bottom-width: 0;
+	padding:20px;
+	padding-top:40px;
+	border-top: thick solid #cccccc;
+}
+
+#navmenu {
+	list-style-type:none;
+	float: right;
+	margin-right:300px;
+	position: absolute;	
+	top:40px;
+	right:40px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#header {
+	clear:both;
+	background-color: #4aaaa5;
+	width: 17.3%;
+	color: white;
+	padding: 40px;
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 40px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+	font-size: 24px;
+}
+
+img {
+	float: left;
+}
+
+
+#right {
+	width: 20.3%;
+	height: 250px;
+	background-color: white;
+	text-align: center;
+	padding-bottom: 30px;
+	padding: 10px;
+	float: right;
+	position: absolute;
+	top: 160px;
+	right:190px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#cccccc;
+}
+
+
+#page1 #left {
+	clear: both;
+	overflow:auto;
+	background-color: white;
+	width: 63%;
+	height: 700px;
+	margin-left: 70px;
+	margin-right: 40px;
+	line-height: 48px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#cccccc;
+}
+
+#page2 #left{
+	clear: both;
+	overflow:auto;
+	background-color: white;
+	width: 55%;
+	height: 800px;
+	margin-left: 70px;
+	margin-right: 40px;
+	line-height: 48px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:#cccccc;
+}
+
+#footer{
+	text-align: center;
+	background-color: grey;
+	color: white;
+	height: 20px;
+	padding: 40px;
+	bottom: 0px;
+	margin: 0px;
+	width: 100%;
+	border-style: solid;
+	border-top: thick solid #4aaaa5;
+	border-top-width: 15px;
+}
+
+
+#static1{
+	position: static;
+	float: 0 0 0 20px;
+}
